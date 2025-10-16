@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0f0e0e;
+  color: #fbfbff;
+}
+
+.nav-bar {
+  background-color: #0d1b2a;
+  width: 100vw;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.geo-care-img {
+  margin-left: -24px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.header-name {
+  margin-left: -8px;
+  font-family: Inter, serif, Arial;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-bar-search {
+  width: 300px;
+  margin-top: 6px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.nav-bar-search:focus {
+  box-shadow: 0 0 6px 2px #33c1cd;
+  outline: none;
+  background: transparent;
+  color: #ff715b;
+}
+
+.home-tab {
+  margin-left: 14%;
+}
+
+.nav-tabs {
+  background-color: #ff715b;
+  padding: 2px 8px;
+  margin-right: 12px;
+  margin-top: 5px;
+  font-family: Poppins, serif, Arial;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
