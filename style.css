@@ -13,55 +13,98 @@ body {
 .nav-bar {
   background-color: #0d1b2a;
   width: 100vw;
-  height: 45px;
+  height: 4.375rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
+  position: fixed;
+  top: 0;
 }
 
 .geo-care-img {
-  margin-left: -24px;
-  height: 50px;
+  margin-left: -6.25rem;
+  height: 3.125rem;
   cursor: pointer;
 }
 
 .header-name {
-  margin-left: -8px;
+  margin-left: -0.5rem;
   font-family: Inter, serif, Arial;
   font-weight: 600;
   cursor: pointer;
 }
 
 .nav-bar-search {
-  width: 300px;
-  margin-top: 6px;
-  margin-left: 20px;
+  width: 18.75rem;
+  margin-top: 0.375rem;
+  margin-left: 1.25rem;
   border: none;
-  border-radius: 10px;
-  padding: 4px 8px;
+  border-radius: 0.625rem;
+  padding: 0.625rem 1rem;
   box-sizing: border-box;
   transition: all 0.3s ease;
 }
 
 .nav-bar-search:focus {
-  box-shadow: 0 0 6px 2px #33c1cd;
+  box-shadow: 0 0 0.375rem 0.125rem #33c1cd;
   outline: none;
   background: transparent;
   color: #ff715b;
 }
 
 .home-tab {
-  margin-left: 14%;
+  margin-left: 30%;
 }
 
 .nav-tabs {
   background-color: #ff715b;
-  padding: 2px 8px;
-  margin-right: 12px;
-  margin-top: 5px;
+  padding: 0.5rem 1.5rem;
+  margin-right: 0.75rem;
+  margin-top: 0.3125rem;
   font-family: Poppins, serif, Arial;
-  border-radius: 4px;
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 550;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs:hover {
+  background-color: transparent;
+  outline: 0.125rem solid #ff715b;
+  transform: scale(1.1);
+}
+
+.home {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 7.5rem;
+  margin-bottom: 3.75rem;
+  display: grid;
+  grid-template-columns: 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem;
+  grid-template-rows: 12.5rem;
+  gap: 2.25rem;
+  justify-content: center;
+  font-family: 'Signika Negative', serif, Arial;
+  font-size: 1.5rem;
+}
+
+.country-name-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12.5rem;
+  width: 12.5rem;
+  background-color: #27213c;
+  border-radius: 0.9375rem;
+  cursor: pointer;
+  text-align: center;
+  border: .125rem solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.country-name-card:hover {
+  box-shadow: 0 0 .375rem .1875rem #ff715b;
+  transform: scale(1.1);
 }
