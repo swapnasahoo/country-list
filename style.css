@@ -173,10 +173,6 @@ body {
 }
 
 @media (max-width: 920px) {
-  .contact-tab {
-    margin-right: 20rem;
-  }
-
   .nav-bar {
     width: 100%;
   }
