@@ -16,11 +16,9 @@ for (let i = 0; i < countryList.length && countryISO.length; i++) {
 homeElement.innerHTML += htmlGen;
 
 document.querySelector('.hamburger-menu').addEventListener('click', () => {
-  hamburgerActiveMenu.style.opacity = '1';
-  hamburgerActiveMenu.style.left = '80%';
+  hamburgerActiveMenu.classList.add('active');
 });
 
 document.querySelector('.close-icon').addEventListener('click', () => {
-  hamburgerActiveMenu.style.opacity = '0';
-  hamburgerActiveMenu.style.left = '100%';
+  hamburgerActiveMenu.classList.remove('active');
 });
