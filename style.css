@@ -214,9 +214,6 @@ body {
     font-family: 'Signika Negative', serif, Arial;
     font-size: 1.5rem;
   }
-
-  .country-card {
-  }
 }
 
 @media (max-width: 400px) {
