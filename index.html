@@ -14,19 +14,45 @@
           <img src="images/geo-care-logo.png" alt="" class="geo-care-img" />
           <h1 class="header-name">GeoCare</h1>
 
-          <input
-            type="text"
-            placeholder="Enter the country name"
-            class="nav-bar-search"
-          />
-
           <span class="nav-tabs home-tab">Home</span>
           <span class="nav-tabs about-us-tab">About Us</span>
           <span class="nav-tabs contact-tab">Contact</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="30px"
+            viewBox="0 -960 960 960"
+            width="30px"
+            fill="#e3e3e3"
+            class="hamburger-menu"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
         </nav>
       </header>
 
       <section class="home js-home"></section>
+
+      <div class="hamburger-active-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#e3e3e3"
+          class="close-icon"
+        >
+          <path
+            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+          />
+        </svg>
+        <ul>
+          <li class="hamburger-menu-home">Home</li>
+          <li class="hamburger-menu-about">About Us</li>
+          <li class="hamburger-menu-contact">Contact</li>
+        </ul>
+      </div>
     </main>
 
     <script src="script.js"></script>
